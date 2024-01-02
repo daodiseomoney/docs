@@ -1,6 +1,6 @@
 # ODISEO Docs
 
-Welcome to the official documentation for DAODISEO, a decentralized financial infrastructure powering the innovation of money. DAODISEO provides the foundational building blocks for a new real estate digital economy with its network of existing real estate development projects that leverage the DAODISEO Open Ledger to interact with their customers. They do so by creating a fully trusted and transparent environment where all parties can access reliable information about the assets under development, while contributing to the security of the network by running DAODISEO validation nodes. 
+Welcome to the official documentation for ODISEO Network, a decentralized infrastructure powering the innovation of RWAs.  
 
 :::::::{grid} 2 2 2 3
 :gutter: 3
