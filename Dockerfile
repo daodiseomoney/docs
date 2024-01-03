@@ -1,6 +1,6 @@
 # in your Dockerfile
 FROM sphinxdoc/sphinx
 
-WORKDIR /dao_docs
-ADD requirements.txt /dao_docs
+WORKDIR /docs
+ADD requirements.txt /docs
 RUN pip3 install -r requirements.txt
