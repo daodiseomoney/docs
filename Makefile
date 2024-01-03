@@ -18,7 +18,7 @@ docker-make:
 	docker build -t build-docs . 
 
 docker-build: 
-	docker run --rm -v $$(pwd):/dao_docs build-docs make html
+	docker run --rm -v $$(pwd):/dao_docs -w /dao_docs build-docs make html
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
