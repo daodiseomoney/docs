@@ -18,12 +18,10 @@
 If you are contributing to the repository, make sure to fork this (DAODISEO) repo, and then clone your own fork. You will need to do this to make creating pull requests easier.
 
 ```bash
-git clone https://github.com/<your-username>/dao_docs
+git clone https://github.com/<your-username>/docs
 ```
 
 ## Test locally with Docker
-
-Using Docker is easier than configuring your local machine to build `sphinx`:
 
 First build the local Docker container:
 
