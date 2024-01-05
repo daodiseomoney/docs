@@ -41,6 +41,26 @@ You can view the site in your browser by navigating to `index.html` located in `
 
 Make sure to run `make docker-build` each time you save your changes to view them live.
 
+Potential issues and solutions:
+
+1. When executing in browser newly generated index.html only raw, not formatted data are displayed. Solution:
+
+Serving your HTML file via a local server is a common method to bypass the security restrictions browsers place on local files, especially when those files need to access other local files like CSS, JavaScript, or images. Here's a step-by-step guide on how to do this using Python's built-in HTTP server:
+
+Open a terminal (Command Prompt on Windows, Terminal on macOS and Linux). Use the cd command to navigate to the directory where your index.html file is located . For example, if your file is in /home/freeman/docs/_build/html, you would type cd /home/freeman/docs/_build/html.
+
+Start the Python HTTP Server: In the terminal, run the following command: 
+
+python3 -m http.server.
+
+This command starts a simple HTTP server in the current directory.
+By default, the server runs on port 8000. If you need to use a different port, you can specify it by adding the port number at the end, like python3 -m http.server 8080.
+Access Your Site:
+
+Open a web browser and go to http://localhost:8000.
+This URL points to your local server. You should see a listing of files in the directory or your index.html file if it's present.
+Click on index.html or directly navigate to http://localhost:8000/index.html to view your page.
+
 ### Adding an article
 
 All articles are markdown files, placed under the `/docs/` directory. You can create folders underneath the `/docs` directory, such as the following:

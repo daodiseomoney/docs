@@ -97,8 +97,8 @@ nitpicky = True
 
 # Theme options
 html_theme_options = {
-    "path_to_docs": "dao_docs",
-    "repository_url": "https://github.com/daodiseomoney/dao_docs",
+    "path_to_docs": "docs",
+    "repository_url": "https://github.com/daodiseomoney/docs",
     "use_repository_button": True,
     "use_edit_page_button": False,
     "use_issues_button": True,
