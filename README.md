@@ -132,7 +132,7 @@ Each module should be documented with the following subheaders:
 
 This software is licensed under the MIT license. See [LICENSE](./LICENSE) for full disclosure.
 
-© 2020 DAODISEOform Labs, PTE.
+© 2024 DAODISEO Fundation
 
 <hr/>
 
